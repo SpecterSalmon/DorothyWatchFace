@@ -1,0 +1,11 @@
+<svg class="background">
+  <image href="bg.png"/>
+  <text id="currentTime" />
+  <text id="myMonth" />
+  <text id="myDay" />
+  <text id="theYear" />
+  <text id="myBattery"/>
+  <image id="myBatteryImg" width="23" height="11"/>
+  <text id="myHRM"></text>
+  <image id="myDrinkImg" width="33" height="57"/>
+</svg>

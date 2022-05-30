@@ -1,0 +1,79 @@
+.background {
+  viewport-fill: red;
+}
+
+#currentTime {
+  font-size: 60;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 80%+40;
+  fill: white;
+}
+
+#myMonth {
+  font-size: 20;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 243;
+  y: 98;
+  fill: white;
+}
+
+#myDay {
+  font-size: 20;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 277;
+  y: 98;
+  fill: white;
+}
+
+#theYear {
+  font-size: 20;
+  font-family: System-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  x: 259;
+  y: 122;
+  fill: white;
+}
+
+#myBattery {
+  font-size: 15;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 265;
+  y: 215;
+  fill: white;
+}
+
+#myBatteryImg {
+  width: 23;
+  height: 11;
+  x: 270;
+  y: 204;
+  fill: white;
+}
+
+#myHRM {
+  font-size: 22;
+  font-family: System-Regular ;
+  text-length: 32;
+  text-anchor: middle;
+  x: 197;
+  y: 125;
+  fill: white;
+}
+
+#myDrinkImg {
+  width: 33;
+  height: 57;
+  x: 181;
+  y: 136;
+  fill: white;
+}

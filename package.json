@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "f842c9d6-4e78-4e58-b223-7534571f76e5",
+    "appType": "clockface",
+    "appDisplayName": "Dorothy",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Dorothy"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
