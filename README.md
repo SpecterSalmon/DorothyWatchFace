@@ -6,6 +6,7 @@ This is a watch face based off the character Dorothy from the game "VA-11 Hall-A
 This watch face is made only for the Versa 2, but you can edit it to work or other smartwatches if you so fit. Please keep these points in mind:
 
 -Don't charge people for it.
+
 -If you make any changes to improve or work for other smartwatches, please add a branch to add to it so people can hopefully see a version that works for the watch they have.
 
 Other than that, go nuts.
