@@ -41,6 +41,7 @@ const theYear = document.getElementById("theYear");
 const myBattery = document.getElementById("myBattery");
 const myDrinkImg = document.getElementById("myDrinkImg");
 
+//Reads the battery to tell the battery level.
 myBattery.text=(Math.floor(battery.chargeLevel) + "%");
 const myBatteryImg = document.getElementById("myBatteryImg");
 if (battery.chargeLevel >= 76)
@@ -98,23 +99,23 @@ clock.ontick = (evt) => {
   myMonth.text = `${monthname}`;
   myDay.text = `${day}`; 
   theYear.text = `${year}`;
-  if (util.zeroPad(hours) >= 19)
+  if (util.zeroPad(hours) >= 19 && util.zeroPad(hours) < 23)
   {
     myDrinkImg.href = "Moonblast.png";
   }
-  else if (util.zeroPad(hours) >= 15)
+  else if (util.zeroPad(hours) >= 15 && util.zeroPad(hours) < 19)
   {
     myDrinkImg.href = "ZenStar.png";
   }
-  else if (util.zeroPad(hours) >= 11)
+  else if (util.zeroPad(hours) >= 11 && util.zeroPad(hours) < 15)
   {
     myDrinkImg.href = "PianoWoman.png";
   }
-  else if (util.zeroPad(hours) >= 7)
+  else if (util.zeroPad(hours) >= 7 && util.zeroPad(hours) < 11)
   {
     myDrinkImg.href = "SunshineCloud.png";
   }
-  else if (util.zeroPad(hours) >= 3)
+  else if (util.zeroPad(hours) >= 3 && util.zeroPad(hours) < 7)
   {
     myDrinkImg.href = "CobaltVelvet.png";
   }
@@ -123,4 +124,3 @@ clock.ontick = (evt) => {
     myDrinkImg.href = "FluffyDream.png";
   }
 }
-
